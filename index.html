@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!--============ SCRIPTS ============-->
+    <script src="js/svg-inject.min.js"></script>
+
+</head>
+<body>
+    <div class="loader">
+        <img  src="./svg/onoff.svg" onload="SVGInject(this)" alt="">
+    </div>
+    <main class="container mt-1">
+        
+            <div class="container-item-1 mr-4  ">
+                <div class="adjust mb-5">
+                <header class=" header mb-3 ">
+                    <div class="logo-lab mr-2">
+                        <img src="./svg/lab.svg" alt="" onload="SVGInject(this)">
+                    </div>
+                    <div class="shift ml-2">
+                        <h5>Gestão de Turno</h5>
+                    </div>
+                </header>
+                <div class="cta mb-1">
+                    <h5>Módulo Supervisão</h5>
+                </div>
+                </div>
+                <div class="email">
+                    <p class="p3">Login</p>
+                    <input type="text" class="npessoal mt-1" maxlength="7" placeholder="Número de Pessoal ou E-mail" required> 
+                </div>
+                <div class="pw">
+                    <p class="p3">Senha</p>
+                    <input type="password" class="senha mt-1" placeholder="Senha" required>
+                </div>
+                <div class="submit">
+                    <a href="#" class="btn mt-3">Entrar</a>
+                </div>
+
+            </div>
+            <div class="container3d">
+                <img src="./svg/icon-interativity.svg" onload="SVGInject(this)" class="inter" alt="">
+                <spline-viewer url="https://prod.spline.design/J-tBjv6w0V800f6P/scene.splinecode" ></spline-viewer>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.0/build/spline-viewer.js"></script>
+
+   
+</body>
+</html>
